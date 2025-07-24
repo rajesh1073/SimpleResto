@@ -1,0 +1,111 @@
+body {
+    margin:0;
+    padding:0;
+    background: url('images/Background2.png');
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding:0px 100px 0px 50px;
+    height: 70px;
+    align-items: center;
+}
+.links {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.links li {
+    font-size: 19px; 
+    color: orange;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+    color: orange;
+}
+.nav-1{
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+.icons{
+    gap : 35px;
+    color: black;;
+    display: flex;;
+}
+icons i{
+    font-size: 25px;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin-top: 80px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+}
+.left1
+{
+    font-size: 30px;
+   font-style: italic;
+}
+.left2{
+    font-size: 85px;
+    font-weight: 600;
+}
+.left3{
+    font-size: 27px;
+    color: orange;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+.left4{
+    padding:5px 15px;
+    border: 2px solid white;
+    border-radius: 30px;
+  
+}
+#food{
+    background: url('images/food.png');
+    width: 500px;
+    height: 500px;
+    background-size: cover;
+}
+.food{
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.items{
+    display: flex;
+    padding-left:150px ;
+    margin-top:-50px;
+    gap:20px;
+}
+#food1,#food2, #food3,#food4{
+    width: 120px;
+    height: 120px;
+    
+    border-radius: 50%;
+    border: 2px solid white;
+}
+#food1{
+    background: url('images/food1.png');
+    background-size: cover;
+}
+#food2{
+    background: url('images/food2.png');
+    background-size: cover;
+}
+#food3{
+    background: url('images/food3.png');
+    background-size: cover;
+}
+#food4{
+    background: url('images/food4.png');
+    background-size: cover;
+}
